@@ -1,0 +1,338 @@
+#kehys {
+	background-color: #231F20;
+	margin-left: auto;
+	margin-right: auto;
+}
+#content {
+	background-color: #231F20;
+	float: left;
+	margin: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-top: 50px;
+	width: 650px;
+	min-height: 700px;
+}
+#content2 {
+	background-color: #231F20;
+	float: left;
+	margin: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-top: 50px;
+	width: 1000px;
+	min-height: 700px;
+}
+#content3 {
+	background-color: #231F20;
+	float: left;
+	margin: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-top: 50px;
+	width: 1000px;
+	min-height: 700px;
+}
+#teksti {
+	position: relative;
+	color: white;
+	float: left;
+	padding: 30px;
+	padding-right: 0px;
+	width: 90%;
+	margin: 0px;
+	margin-top: -50px;
+	margin-left: 10px;
+}
+#teksti2 {
+	position: relative;
+	color: white;
+	float: left;
+	width: 100%;
+	margin: 0px;
+	margin-top: 20px;
+	text-align: center;
+}
+#banneri {
+    padding: 0px;
+    background: url(banneri.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 280px;
+	width: 1000px;
+	max-height: 100%;
+	max-width: 100%;
+	background-position: center;
+}
+#palsta {
+	background-color: #231F20;
+	position: absolute;
+	float: left;
+	margin: 0px;
+	margin-top: 46.13px;
+	margin-left: 650px;
+	padding: 0px;
+	padding-right: 40px;
+	padding-top: 50px;
+	padding-left: 10px;
+	width: 300px;
+	min-height: 654.13px;
+}
+#nav {
+	float: left;
+	margin: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	position: absolute;
+	width: 1000px;
+	overflow: hidden;
+}
+#tiedot {
+	text-align: center;
+	position: relative;
+	float: left;
+	background-color: #231F20;
+	margin: 0px;
+	margin-top: 60px;
+	margin-left: 60px;
+	color: white;
+	
+}
+#navli {
+	display: block;
+	float: left;
+	min-width: 33.333%;
+}
+#navul {
+	width: 1000px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+#shorth2 {
+	width: 200px;
+	float: left;
+	position: relative;
+	margin-left: 50px;
+	color: white;
+}
+#h2a {
+	padding-left: 30px;
+	color: white;
+}
+#joukkue {
+	background-image: url("joukkue1.png");
+	border: none; 
+	position: relative;
+	float: left;
+	overflow: hidden;
+	width: 300px;
+	height: 600px; 
+	padding: 0px;
+	background-color: #231F20;
+	margin: 0px;
+}
+#yt {
+	border: none; 
+	position: absolute;
+	float: left;
+	overflow: hidden;
+	width: 534px;
+	height: 400px; 
+	padding: 7.5px;
+	background-color: #333;
+	margin: 0px;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+#lomake {
+	position: relative;
+	color: white;
+	float: left;
+	padding: 30px;
+	padding-right: 0px;
+	width: 60%;
+	margin: 0px;
+	margin-top: 0px;
+	margin-left: 10px;
+}
+#message {
+	width: 500px;
+	height: 400px;
+	margin: 0;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#leftBtn {
+	position: relative;
+	float: left;
+	width: 150px;
+	margin: 0px;
+	margin-left: 0px;
+}
+#rightBtn {
+	position: relative;
+	float: left;
+	width: 150px;
+	margin: 0px;
+	margin-left: 0px;
+}
+#more {
+	display: none;
+}
+#dots {
+	display: inline;
+}
+body {
+	padding: 0px;
+	margin: 0px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #676465;
+	background-image: url(tausta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li {
+	max-width: 380px;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+input {
+	padding: 2px;
+	margin: 10px;
+}
+
+h4 {
+	padding: 0px;
+	margin-top: 10px;
+	margin-bottom: 2px;
+}
+a {
+	width: 100%;
+}
+@media only screen and (max-width: 1000px) {
+	body {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #231F20;
+	}
+	a {
+		width: 100%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#content {
+		background-color: #231F20;
+		float: left;
+		margin: 0px;
+		margin-left: -15px;
+		padding-left: 0px;
+		padding-top: 50px;
+		padding-right: 15px;
+		width: 100%;
+	}
+	#content2 {
+		background-color: #231F20;
+		float: left;
+		margin: 0px;
+		margin-left: 0px;
+		padding-left: 0px;
+		padding-top: 50px;
+		width: 100%;
+	}
+	#content3 {
+		background-color:#231F20;
+		float: left;
+		margin: 0px;
+		margin-left: 0px;
+		padding-left: 0px;
+		padding-top: 50px;
+		width: 100%;
+	}
+	#palsta {
+		display: none;
+	}
+	#nav {
+	float: left;
+	margin: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	position: absolute;
+	width: 100%;
+	}
+	#navul {
+		width: 100%;
+		margin-left: -22px;
+		padding-right: 22px;
+	}
+	#navli {
+		width: 33.333%;
+	}
+	#banneri {
+		padding: 0px;
+		background: url(banneri.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		max-height: 100%;
+		max-width: 100%;
+		background-position: center;
+	}
+	#talo {
+	border: none; 
+	position: relative;
+	float: left;
+	overflow: hidden;
+	width: 85%;
+	height: 100%;
+	padding: 7.5px;
+	background-color: #333;
+	margin: 0px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	margin-right: 0px;
+	margin-left: 35px;
+	}
+	#teksti {
+	color: white;
+	position: relative;
+	float: left;
+	padding: 30px;
+	padding-right: 0px;
+	width: 90%;
+	margin: 0px;
+	margin-top: -50px;
+	margin-left: 0px;
+	}
+	#yt {
+		border: none; 
+		position: absolute;
+		float: left;
+		overflow: hidden;
+		width: 94.5%;
+		height: 300px; 
+		padding: 7.5px;
+		background-color: #333;
+		margin: 0px;
+		margin-top: 20px;
+		margin-left: 0px;
+	}
+}

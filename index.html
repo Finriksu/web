@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Jalkahoitoja hoitolassa ja kotikäynneillä. Varaa aika puhelimitse 040 933 9922">
+<meta name="keywords" content="Jalkahoito,Jalkahoitola,Jalkahoitola Saija,Keuruu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="tyylit.css">
+<link rel="icon" type="image/png" href="icon.png" />
+<title>Kärppäfanit</title>
+</head>
+<body>
+
+	<div id="kehys">
+		<div id="banneri">
+		</div>
+	
+			<div id="nav">
+				<nav>
+					<ul id="navul">
+						<li id="navli"><a href="index.html">Etusivu</a></li>
+						<li id="navli"><a href="illat.html">Peli-illat</a></li>
+						<li id="navli"><a href="yhteys.php">Ota yhteyttä</a></li>
+					</ul>
+				</nav>
+			</div>
+		
+			<div id="content">
+				<h2 id="h2a">Hei!</h2>
+				<div id="teksti">
+				<p>
+					<br>
+					Olemme kahden kaveruksen perustama Oulun Kärppien fanikerho. Perustimme fanikerhomme vuonna 2012
+					ja kuluneiden vuosien varrella kerhomme on jäsenmäärä on kasvanut ja laskenut paljon, mutta tällä hetkellä
+					aktiivisia jäseniä on noin kaksikymmentä.
+					<br><br>
+					Järjestämme yhteisiä pelien katsomisia, ja niistä löydät lisää Peli-illat -sivulta.
+					<br><br>
+					Yhteystiedot ja yhteydenottolomake löytyvät Ota yhteyttä -sivulta.
+				</p>
+				<iframe id="yt" src="https://www.youtube.com/embed/Gqfbtf01nDE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			
+			<div id="palsta">
+				<image id="joukkue"></image>
+				<button onclick="leftFunction()" id="leftBtn">&larr;</button>
+				<button onclick="rightFunction()" id="rightBtn">&rarr;</button>
+			</div>
+			
+
+	</div>
+	
+	<script type="text/javascript">
+		var num = 1;
+		function leftFunction(){
+			var img = document.getElementById("joukkue");
+			var replace = "";
+			num -= 1;
+			if(num == 0){
+				num = 5;
+			}
+			replace = `url(joukkue${num}.png)`;
+			img.style.backgroundImage = replace;
+		}
+		function rightFunction(){
+			var img = document.getElementById("joukkue");
+			var replace = "";
+			num += 1;
+			if(num == 6){
+				num = 1;
+			}
+			replace = `url(joukkue${num}.png)`;
+			img.style.backgroundImage = replace;
+		}
+
+	</script>
+</body>
+</html>

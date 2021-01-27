@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="tyylit.css">
+<link rel="icon" type="image/png" href="icon.png" />
+<title>Kärppäfanit</title>
+</head>
+<body>
+	<div id="kehys">
+		<div id="banneri">
+		</div>
+		
+		<div id="nav">
+			<nav>
+				<ul id="navul">
+						<li id="navli"><a href="index.html">Etusivu</a></li>
+						<li id="navli"><a href="illat.html">Peli-illat</a></li>
+						<li id="navli"><a href="yhteys.php">Ota yhteyttä</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+		<div id="content3">
+			<div id="teksti2">
+				<p>Järjestämme yhteisiä peli-iltoja, joissa voi kerääntyä porukalle ja katsoa Kärppien peliä yhdessä.<br>Kokoonnumme pääsääntöisesti Pasille tai Villelle, ja paikasta mainitaan aikataulujen ohessa.</p>
+				<p><br>Peli iltojen aikataulut:</p>
+				<p><br>Kärpät VS HPK<br>04.11.2020 klo 18.30<br>Villellä, Villentie 1</p>
+				<div id="dots">...<br><br></div>
+				<div id="more">
+				<p><br>Kärpät VS Saipa<br>06.11.2020 klo 18.30<br>Pasilla, Pasintie 1</p>
+				<p><br>Kärpät VS Jukurit<br>11.11.2020 klo 18.30<br>Villellä, Villentie 1</p>
+				<p><br>Sport VS Kärpät<br>13.11.2020 klo 18.30<br>Villellä, Villentie 1</p>
+				<p><br>Kärpät VS HIFK<br>14.11.2020 klo 18.00<br>Pasilla, Pasintie 1</p>
+				</div>
+				<button onclick="moreFunction()" id="showBtn">Näytä enemmän</button>
+			</div>
+		</div>
+		
+		<script type="text/javascript">
+			function moreFunction() {
+				var dots = document.getElementById("dots");
+				var moreText = document.getElementById("more");
+				var btnText = document.getElementById("showBtn");
+
+				if(dots.style.display === "none"){
+					dots.style.display = "inline"
+					btnText.innerHTML = "Näytä enemmän";
+					moreText.style.display = "none";
+				}
+				else{
+					dots.style.display = "none"
+					btnText.innerHTML = "Näytä vähemmän";
+					moreText.style.display = "inline";
+				}
+			}
+		</script>
+	</div>
+	
+</body>
+</html>
